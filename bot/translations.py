@@ -1,7 +1,7 @@
 
 class Messages:
 
-    START_MSG = "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube once you authorise me.You can know more from /help.\n\nThank you."
+    START_MSG = "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube once you authorise me.You can know more from /help.\n\nThank you. 😇ඔබගේ ඕනෑම ගැටලුවක් @dasuking [DEVELOPER] මා වෙත යොමු කරන්න😇"
 
     HELP_MSG = [
         ".",
@@ -16,23 +16,23 @@ class Messages:
         "**Now lets authorise.**\n\nYou need to give me the access to upload videos to your Youtube account.For that open the given link and allow access and copy the code. Come back here and type `/authorise copied-code` and send it.\n\n**Fear not!**\nI'm not a hacker or someone who wants to creep into people's privacy. I respect one's privacy. I'm here just to help anyone who wants help. If I was a hacker I won't be sitting here writing Telegram Bots."
     ]
 
-    NOT_A_REPLY_MSG = "Please reply to some video file."
+    NOT_A_REPLY_MSG = "Please reply to some video file [කරුණාකර ගොනුවක් වෙත පිළිතුරු ලියන්න]."
 
-    NOT_A_MEDIA_MSG = "No media file found. "+NOT_A_REPLY_MSG
+    NOT_A_MEDIA_MSG = "No media file found [ගොනුවක් හඳුනා ගත නොහැකි විය]. "+NOT_A_REPLY_MSG
 
-    NOT_A_VALID_MEDIA_MSG = "This is not a valid media"
+    NOT_A_VALID_MEDIA_MSG = "This is not a valid media [මෙම ගොනුව වලංගු නොවේ]"
     
-    DAILY_QOUTA_REACHED = "Looks like you are trying to upload more than 6 videos today! By default youtube only allows about 6 uploads daily, so this request might fail!!"
+    DAILY_QOUTA_REACHED = "Looks like you are trying to upload more than 6 videos today! By default youtube only allows about 6 uploads daily, so this request might fail!! 😇දිනකට උඩුගත කළ හැකි වීඩියෝ ප්‍රමාණය උපරිම 06ක් වන අතර ඔබට ඊට වැඩි වීඩියෝ ප්‍රමාණයක් උඩුගත කිරීමට අවශ්‍ය නම් @dasuking අමතන්න😴"
 
-    PROCESSING = "Processing....."
+    PROCESSING = "Processing..... [⚡Powered by @dasuking webserver⚡]"
 
-    NOT_AUTHENTICATED_MSG = "You have not authenticated me to upload video to any account. see /help to authenticate"
+    NOT_AUTHENTICATED_MSG = "You have not authenticated me to upload video to any account ⚡උඩුගත කිරීමට ඔබගේ ගිණුම තවමත් තහවුරු කර නොමැත😔. see /help to authenticate"
 
-    NO_AUTH_CODE_MSG = "There is no code. Please provide some code"
+    NO_AUTH_CODE_MSG = "There is no code. Please provide some code ⚡වලංගු ආදනයන් ලබා දෙන්න😴"
 
-    AUTH_SUCCESS_MSG = "Congrats, you have successfully authenticated me to upload to Youtube.\nHappy uploading!"
+    AUTH_SUCCESS_MSG = "Congrats, you have successfully authenticated me to upload to Youtube 🤹සාර්ථකව තහවූරු කරන ලදී😴.\nHappy uploading....!"
 
     AUTH_FAILED_MSG = "Authentication failed\nDetails:{}"
     
-    AUTH_DATA_SAVE_SUCCESS = "Successfully saved the given auth data!"
+    AUTH_DATA_SAVE_SUCCESS = "Successfully saved the given auth data![සාර්ථකව ඔබගේ ගිණුම් තොරතුරු ලියාපදිංචි කරන ලදී]"
     
