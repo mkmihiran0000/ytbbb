@@ -17,23 +17,7 @@ class Uploader:
     def __init__(self, file, title=None):
         self.file = file
         self.title = title
-        self.video_category = {
-            1:'Film & Animation',
-            2:'Autos & Vehicles',
-            10:'Music',
-            15:'Pets & Animal',
-            17:'Sports',
-            19:'Travel & Events',
-            20:'Gaming',
-            22:'People & Blogs',
-            23:'Comedy',
-            24:'Entertainment',
-            25:'News & Politics',
-            26:'Howto & Style',
-            27:'Education',
-            28:'Science & Technology',
-            29:'Nonprofits & Activism',
-        }
+        self.video_category = (27:'Education')
 
 
     async def start(self, progress=None, *args):
@@ -67,7 +51,7 @@ class Uploader:
             categoryName = self.video_category[categoryId]
             title = self.title if self.title else os.path.basename(self.file)
             title = (Config.VIDEO_TITLE_PREFIX + title + Config.VIDEO_TITLE_SUFFIX).replace('<', '').replace('>', '')[:100]
-            description = (Config.VIDEO_DESCRIPTION + '\nUploaded to YouTube with https://tx.me/youtubeitbot')[:5000]
+            description = (Config.VIDEO_DESCRIPTION)[:5000]
             if not Config.UPLOAD_MODE:
                 privacyStatus = 'private'
             else:
