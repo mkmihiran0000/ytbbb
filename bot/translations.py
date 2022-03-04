@@ -1,7 +1,7 @@
 
 class Messages:
 
-    START_MSG = "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube once you authorise me.You can know more from /help.\n\nThank you. 😇ඔබගේ ඕනෑම ගැටලුවක් @dasuking [DEVELOPER] මා වෙත යොමු කරන්න😇"
+    START_MSG = "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube once you authorise me.You can know more from /help.\n\nThank you. 😇ඔබගේ ඕනෑම ගැටලුවක් @dasuking [DEVELOPER] මා වෙත යොමු කරන්න😇."
 
     HELP_MSG = [
         ".",
@@ -34,5 +34,5 @@ class Messages:
 
     AUTH_FAILED_MSG = "Authentication failed\nDetails:{}"
     
-    AUTH_DATA_SAVE_SUCCESS = "Successfully saved the given auth data![සාර්ථකව ඔබගේ ගිණුම් තොරතුරු ලියාපදිංචි කරන ලදී]"
+    AUTH_DATA_SAVE_SUCCESS = "Successfully saved the given auth data....!!සාර්ථකව ඔබගේ තොරතුරු ලියාපදිංචි කරන ලදී"
     
