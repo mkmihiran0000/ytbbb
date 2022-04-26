@@ -7,7 +7,7 @@ from ..utubebot import UtubeBot
 async def cncl(c, q):
     _, pid = q.data.split('+')
     if not c.download_controller.get(pid, False):
-        await q.answer("Your process is not currently active!", show_alert=True)
+        await q.answer("🤖Your process is not currently active👀", show_alert=True)
         return
     c.download_controller[pid] = False
-    await q.answer("Your process will be cancelled soon!", show_alert=True)
+    await q.answer("🔴Your process will be cancelled soon🔴", show_alert=True)
